@@ -1,0 +1,39 @@
+test_upper_case_names (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:/Users/jblab/Documents/GitHub/c03_ch2_ecriture-jblabbe/test_exercice.py", line 18, in test_upper_case_names
+    self.assertListEqual(
+AssertionError: Lists differ: ['./2$', '!,#//,', '.%26%58', '%8!-%.', '3![61 chars]"%4'] != ['nord', 'alcool', 'nerveux', 'examen', 'sa[58 chars]bet']
+
+First differing element 0:
+'./2$'
+'nord'
+
+- ['./2$',
+-  '!,#//,',
+-  '.%26%58',
+-  '%8!-%.',
+-  '3!"/4',
+-  '5.)4�\x89',
+-  '$)6%24)2',
+-  '!33/#)!4)/.',
+-  '0,5)%',
+-  '!,0(!"%4']
++ ['nord',
++  'alcool',
++  'nerveux',
++  'examen',
++  'sabot',
++  'unité',
++  'divertir',
++  'association',
++  'pluie',
++  'alphabet'] : Toutes les lettres doivent �tre en majuscule.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
